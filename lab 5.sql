@@ -19,7 +19,17 @@ WHERE aid IN (SELECT aid
               ON o.cid = c.cid
               WHERE city = 'Dallas')
 ORDER BY pid DESC;
+-- I don't see a way to complete this query without subqueries.
+-- below is my attempt, though it doesn't completely work.
 
+SELECT DISTINCT *--o.pid
+FROM orders o
+INNER JOIN agents a
+ON o.aid = a.aid
+      JOIN customers c
+ON o.cid = c.cid
+WHERE c.city = 'Dallas'
+ORDER BY pid DESC;
 
 
 -- 3. Show the names of customers who have never placed an 
