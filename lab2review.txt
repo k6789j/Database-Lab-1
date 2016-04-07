@@ -1,0 +1,24 @@
+9 pts
+
+1. 
+
+It is very hard to read the screenshots; the images are very small!
+
+
+2.
+
+Excellent knowledge of the terms primary key, candidate key, and superkey.
+
+
+3.
+
+Good example of datatypes and nulls.
+
+
+4.
+
+Very good explanations about the rules. 
+
+
+
+- Dr. Rivas
