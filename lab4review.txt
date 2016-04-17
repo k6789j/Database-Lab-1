@@ -1,0 +1,27 @@
+9 pts
+
+Correct queries
+Correct SQL statements
+SQL statements are readable
+Correct output for some queries
+
+
+
+3. Get the ids and names of customers who did not place an order through agent
+a01.
+
+Incorrect output
+- the returned rowset is incorrect; re-think your query.
+
+
+
+In general: 
+
+- Please do not use tabs for indentation. Use spaces instead.
+
+- Test all your SQL statements.
+
+- Make sure you read all the instructions for queries really well.
+
+
+- Dr. Rivas
