@@ -1,0 +1,44 @@
+8 pts
+
+Correct queries
+Correct SQL statements
+SQL statements are readable
+Correct output for some queries
+
+Recommendations: 
+ To improve your readability, write queries like this:
+  SELECT DISTINCT pid
+  FROM orders
+  WHERE aid IN (SELECT aid
+                FROM orders
+                WHERE cid IN (SELECT cid
+                              FROM customers
+                              WHERE city = 'Dallas'))
+  ORDER BY pid DESC;     -- < notice the correct indentation here
+
+
+2. Show the ids of products ordered through any agent who makes at least 
+   one order for a customer in Dallas, sorted by pid from highest to 
+   lowest. Use joins; no subqueries.
+
+Incorrect output
+- You are joining the wrong tables.
+
+
+5. Show the names of customers who placed at least one order through an 
+   agent in their own city, along with those agent(s’) names.
+
+Incorrect output
+- Your where clause is incorrect
+
+
+
+In general: 
+
+- Test all your SQL statements.
+
+- Make sure you read all the instructions for queries really well.
+
+
+
+- Dr. Rivas
