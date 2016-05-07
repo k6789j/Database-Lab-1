@@ -1,0 +1,127 @@
+<-= 1 =->
+name = Basics
+city = Dallas
+name = Allied
+city = Dallas
+<-= 2 =->
+name = folder
+name = clip
+<-= 3 =->
+name = Allied
+pid = p05
+total = 1104.00
+name = Basics
+pid = p03
+total = 880.00
+name = Basics
+pid = p03
+total = 740.00
+name = Tiptop
+pid = p06
+total = 720.00
+name = Tiptop
+pid = p07
+total = 720.00
+name = ACME
+pid = p07
+total = 600.00
+name = Tiptop
+pid = p03
+total = 540.00
+name = Tiptop
+pid = p04
+total = 540.00
+name = ACME
+pid = p01
+total = 500.00
+name = ACME
+pid = p01
+total = 460.00
+name = Tiptop
+pid = p05
+total = 450.00
+name = Tiptop
+pid = p01
+total = 450.00
+name = ACME
+pid = p01
+total = 400.00
+name = Tiptop
+pid = p02
+total = 180.00
+<-= 4 =->
+name = ACME
+total = 1000
+name = ACME
+total = 2400
+name = Allied
+total = 1200
+name = Basics
+total = 1800
+name = Tiptop
+total = 4300
+<-= 5 =->
+name = Tiptop
+name = comb
+name = Smith
+name = Basics
+name = razor
+name = Brown
+name = Allied
+name = pencil
+name = Brown
+name = ACME
+name = comb
+name = Smith
+name = Tiptop
+name = razor
+name = Smith
+name = Tiptop
+name = pen
+name = Brown
+name = Tiptop
+name = brush
+name = Jones
+name = ACME
+name = case
+name = Brown
+name = Tiptop
+name = folder
+name = Otasi
+name = Tiptop
+name = pencil
+name = Gray
+name = ACME
+name = comb
+name = Smith
+name = Tiptop
+name = case
+name = Otasi
+name = Basics
+name = razor
+name = Otasi
+<-= 6 =->
+ordno = 1026
+mon = may
+cid = c002
+aid = a05
+pid = p03
+qty = 800
+dollars = 740.00
+truedollars = 704.0000000000000000000000
+<-= 7 =->
+ERROR:  unterminated /* comment at or near "/*The difference between a LEFT OUTER JOIN and a RIGHT OUTER JOIN is which entity is given precedence.  An outer join allows for every single row of  an entity to be represented despite it's inclusion in the other entity being joined.  So, right and left outer joins specify which entity to take all of  rows from.  For example, the query SELECT * FROM orders o LEFT OUTER JOIN products p ON p.pid = o.pid"
+LINE 1:  /*The difference between a LEFT OUTER JOIN and a RIGHT OUTE...
+         ^
+
+<-= 8 =->
+ERROR:  syntax error at or near "would"
+LINE 1:  would return all of the rows from the orders table even if ...
+         ^
+
+<-= 9 =->
+ERROR:  syntax error at or near "would"
+LINE 1:  would return all of the rows from the products table even i...
+         ^
+
+<-= end =->
